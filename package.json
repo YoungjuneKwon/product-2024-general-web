@@ -1,0 +1,52 @@
+{
+  "name": "@winm2m/web",
+  "version": "1.2.0",
+  "description": "A package for developing webbased user service.",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+  "files": [
+    "dist"
+  ],
+  "type": "module",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "peerDependencies": {
+    "vue": "^3.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YoungjuneKwon/product-2024-general-web.git"
+  },
+  "keywords": [
+    "vue3",
+    "web",
+    "service"
+  ],
+  "author": "Youngjune Kwon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/YoungjuneKwon/product-2024-general-web/issues"
+  },
+  "homepage": "https://github.com/YoungjuneKwon/product-2024-general-web#readme",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "firebase": "^10.13.1",
+    "path-browserify": "^1.0.1",
+    "rollup-plugin-node-polyfills": "^0.2.1",
+    "vue": "^3.0.0",
+    "vue3-google-login": "^2.0.33"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.25.2",
+    "@babel/preset-env": "^7.25.4",
+    "@rollup/plugin-babel": "^6.0.4",
+    "@rollup/plugin-commonjs": "^26.0.1",
+    "@rollup/plugin-json": "^6.1.0",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-terser": "^0.4.4",
+    "@vue/compiler-sfc": "^3.4.38",
+    "rollup": "^4.21.2",
+    "rollup-plugin-vue": "^6.0.0"
+  }
+}
